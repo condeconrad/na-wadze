@@ -5,12 +5,9 @@ Oceny i opisy produktów są przykładowe i nie pochodzą z testów.
 
 ## Publikacja na GitHub Pages (bezpłatnie)
 
-1. Zaloguj się na github.com i utwórz nowe repozytorium o nazwie `na-wadze`, widoczność Public.
-2. Na stronie repozytorium wybierz "uploading an existing file" i przeciągnij całą zawartość tego folderu
-   (pliki .html, sitemap.xml oraz foldery `assets` i `rankingi`). Zatwierdź przyciskiem "Commit changes".
-3. Wejdź w Settings > Pages. W polu Source wybierz "Deploy from a branch", gałąź `main`, folder `/ (root)`. Zapisz.
-4. Po około minucie strona działa pod adresem `https://condeconrad.github.io/na-wadze/`.
-5. W pliku `sitemap.xml` zamień `condeconrad` na swój login GitHub.
+1. Pliki są w gałęzi `main` tego repozytorium.
+2. Wejdź w Settings > Pages. W polu Source wybierz "Deploy from a branch", gałąź `main`, folder `/ (root)`. Zapisz.
+3. Po około minucie strona działa pod adresem `https://condeconrad.github.io/na-wadze/`.
 
 Nazwa repozytorium musi brzmieć `na-wadze`, bo korzysta z niej strona błędu 404 i mapa witryny.
 
