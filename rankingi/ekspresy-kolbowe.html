@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranking domowych ekspresów kolbowych – Na Wadze</title>
+<meta name="description" content="Ranking domowych ekspresów kolbowych: pięć produktów z oceną ważoną w pięciu kryteriach. Ustaw własne wagi i porównaj wyniki.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1b33'/%3E%3Crect x='5' y='12' width='8' height='8' fill='%231f4e8c'/%3E%3Crect x='13' y='12' width='6' height='8' fill='%23129080'/%3E%3Crect x='19' y='12' width='5' height='8' fill='%23d59a1f'/%3E%3Crect x='24' y='12' width='3' height='8' fill='%23b4476f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/css/style.css">
+<!-- Dane o stronie dla warstwy danych: muszą być przed kontenerem GTM -->
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"page_type": "ranking", "ranking_id": "ekspresy-kolbowe", "ranking_name": "Ekspresy kolbowe"});
+</script>
+<!-- Tryb zgody i kontener Google Tag Manager: identyfikator GTM-... ustawiasz w tym jednym pliku -->
+<script src="../assets/js/tracking.js"></script>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<div class="demo-strip"><div class="wrap">Projekt studencki. Oceny i opisy produktów są przykładowe i nie pochodzą z testów.</div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Na Wadze</a>
+    <nav class="nav" aria-label="Główna nawigacja"><a href="../#rankingi" aria-current="page">Rankingi</a><a href="../metodologia.html">Jak liczymy ocenę</a><a href="../newsletter.html">Newsletter</a></nav>
+  </div>
+</header>
+<main id="tresc">
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="../">Strona główna</a> / Rankingi / Ekspresy kolbowe</p>
+    <h1>Ranking domowych ekspresów kolbowych</h1>
+    <p class="lead">Pięć ekspresów kolbowych do domu. Domyślne wagi nagradzają smak espresso, ale jeśli pijesz głównie cappuccino albo nie chcesz uczyć się parzenia, zmień proporcje.</p>
+  </div>
+</section>
+
+<section class="section tight" data-ranking="ekspresy-kolbowe" data-ranking-name="Ekspresy kolbowe">
+  <div class="wrap ranking-grid">
+    <aside class="weights" aria-labelledby="weights-title">
+      <h2 id="weights-title">Twoje wagi</h2>
+      <p>Przesuń suwak, żeby kryterium liczyło się bardziej albo mniej. Udziały zawsze sumują się do 100%.</p>
+      <div class="weight">
+          <label for="w-espresso"><span class="dot k1"></span>Jakość espresso<output id="o-espresso" for="w-espresso">35%</output></label>
+          <input type="range" id="w-espresso" min="0" max="100" step="5" value="35" data-criterion="espresso" data-default="35">
+        </div>
+        <div class="weight">
+          <label for="w-mleko"><span class="dot k2"></span>Spienianie mleka<output id="o-mleko" for="w-mleko">20%</output></label>
+          <input type="range" id="w-mleko" min="0" max="100" step="5" value="20" data-criterion="mleko" data-default="20">
+        </div>
+        <div class="weight">
+          <label for="w-obsluga"><span class="dot k3"></span>Łatwość obsługi<output id="o-obsluga" for="w-obsluga">20%</output></label>
+          <input type="range" id="w-obsluga" min="0" max="100" step="5" value="20" data-criterion="obsluga" data-default="20">
+        </div>
+        <div class="weight">
+          <label for="w-czyszczenie"><span class="dot k4"></span>Czyszczenie<output id="o-czyszczenie" for="w-czyszczenie">15%</output></label>
+          <input type="range" id="w-czyszczenie" min="0" max="100" step="5" value="15" data-criterion="czyszczenie" data-default="15">
+        </div>
+        <div class="weight">
+          <label for="w-wykonanie"><span class="dot k5"></span>Jakość wykonania<output id="o-wykonanie" for="w-wykonanie">10%</output></label>
+          <input type="range" id="w-wykonanie" min="0" max="100" step="5" value="10" data-criterion="wykonanie" data-default="10">
+        </div>
+        
+      <div class="weights-actions">
+        <button class="button quiet small" type="button" id="weights-reset" disabled>Przywróć wagi domyślne</button>
+      </div>
+      <p class="weights-state" id="weights-state" aria-live="polite"></p>
+    </aside>
+    <div>
+      <ol class="rank-list" id="rank-list">
+      <li class="product is-first" data-product-id="sage-barista-express" data-product-name="Sage Barista Express" data-scores="8.5,8.0,8.5,7.0,8.0" data-total="8.1250">
+        <div class="product-rank">1</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Sage Barista Express</h3>
+              <p class="product-tier">Półka średnia</p>
+            </div>
+            <div class="product-score"><b data-total-out>8,12</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 8,12 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:29.75%"></span><span class="k2" style="width:16.00%"></span><span class="k3" style="width:17.00%"></span><span class="k4" style="width:10.50%"></span><span class="k5" style="width:8.00%"></span></div>
+          <p class="product-verdict">Ekspres z wbudowanym młynkiem, który wybacza błędy początkującym.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-sage-barista-express">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-sage-barista-express" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Jakość espresso</td><td>8,5</td><td data-weight>35%</td><td data-part>2,98</td></tr><tr><td><span class="dot k2"></span>Spienianie mleka</td><td>8,0</td><td data-weight>20%</td><td data-part>1,60</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>8,5</td><td data-weight>20%</td><td data-part>1,70</td></tr><tr><td><span class="dot k4"></span>Czyszczenie</td><td>7,0</td><td data-weight>15%</td><td data-part>1,05</td></tr><tr><td><span class="dot k5"></span>Jakość wykonania</td><td>8,0</td><td data-weight>10%</td><td data-part>0,80</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>8,12</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Wbudowany młynek</li><li>Czytelny manometr</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Młynek trudniej wyczyścić</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Sage+Barista+Express" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Sage+Barista+Express" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="rancilio-silvia" data-product-name="Rancilio Silvia" data-scores="9.5,8.5,5.0,7.0,9.5" data-total="8.0250">
+        <div class="product-rank">2</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Rancilio Silvia</h3>
+              <p class="product-tier">Półka premium</p>
+            </div>
+            <div class="product-score"><b data-total-out>8,03</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 8,03 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:33.25%"></span><span class="k2" style="width:17.00%"></span><span class="k3" style="width:10.00%"></span><span class="k4" style="width:10.50%"></span><span class="k5" style="width:9.50%"></span></div>
+          <p class="product-verdict">Najlepsze espresso w zestawieniu dla osób, które chcą się go nauczyć.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-rancilio-silvia">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-rancilio-silvia" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Jakość espresso</td><td>9,5</td><td data-weight>35%</td><td data-part>3,33</td></tr><tr><td><span class="dot k2"></span>Spienianie mleka</td><td>8,5</td><td data-weight>20%</td><td data-part>1,70</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>5,0</td><td data-weight>20%</td><td data-part>1,00</td></tr><tr><td><span class="dot k4"></span>Czyszczenie</td><td>7,0</td><td data-weight>15%</td><td data-part>1,05</td></tr><tr><td><span class="dot k5"></span>Jakość wykonania</td><td>9,5</td><td data-weight>10%</td><td data-part>0,95</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>8,03</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Podzespoły z ekspresów gastronomicznych</li><li>Mocna dysza pary</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Wymaga wprawy i osobnego młynka</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Rancilio+Silvia" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Rancilio+Silvia" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="gaggia-classic-evo-pro" data-product-name="Gaggia Classic Evo Pro" data-scores="9.0,7.0,6.0,7.5,9.0" data-total="7.7750">
+        <div class="product-rank">3</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Gaggia Classic Evo Pro</h3>
+              <p class="product-tier">Półka średnia</p>
+            </div>
+            <div class="product-score"><b data-total-out>7,78</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 7,78 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:31.50%"></span><span class="k2" style="width:14.00%"></span><span class="k3" style="width:12.00%"></span><span class="k4" style="width:11.25%"></span><span class="k5" style="width:9.00%"></span></div>
+          <p class="product-verdict">Prosta, trwała maszyna, którą łatwo naprawić i modyfikować.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-gaggia-classic-evo-pro">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-gaggia-classic-evo-pro" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Jakość espresso</td><td>9,0</td><td data-weight>35%</td><td data-part>3,15</td></tr><tr><td><span class="dot k2"></span>Spienianie mleka</td><td>7,0</td><td data-weight>20%</td><td data-part>1,40</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>6,0</td><td data-weight>20%</td><td data-part>1,20</td></tr><tr><td><span class="dot k4"></span>Czyszczenie</td><td>7,5</td><td data-weight>15%</td><td data-part>1,12</td></tr><tr><td><span class="dot k5"></span>Jakość wykonania</td><td>9,0</td><td data-weight>10%</td><td data-part>0,90</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>7,78</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Metalowa obudowa</li><li>Dostępność części</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Mały bojler ogranicza spienianie</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Gaggia+Classic+Evo+Pro" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Gaggia+Classic+Evo+Pro" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="lelit-anna-pl41tem" data-product-name="Lelit Anna PL41TEM" data-scores="8.5,7.5,6.5,7.0,8.5" data-total="7.6750">
+        <div class="product-rank">4</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Lelit Anna PL41TEM</h3>
+              <p class="product-tier">Półka średnia</p>
+            </div>
+            <div class="product-score"><b data-total-out>7,67</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 7,67 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:29.75%"></span><span class="k2" style="width:15.00%"></span><span class="k3" style="width:13.00%"></span><span class="k4" style="width:10.50%"></span><span class="k5" style="width:8.50%"></span></div>
+          <p class="product-verdict">Kompaktowy ekspres z kontrolą temperatury dla cierpliwych.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-lelit-anna-pl41tem">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-lelit-anna-pl41tem" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Jakość espresso</td><td>8,5</td><td data-weight>35%</td><td data-part>2,98</td></tr><tr><td><span class="dot k2"></span>Spienianie mleka</td><td>7,5</td><td data-weight>20%</td><td data-part>1,50</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>6,5</td><td data-weight>20%</td><td data-part>1,30</td></tr><tr><td><span class="dot k4"></span>Czyszczenie</td><td>7,0</td><td data-weight>15%</td><td data-part>1,05</td></tr><tr><td><span class="dot k5"></span>Jakość wykonania</td><td>8,5</td><td data-weight>10%</td><td data-part>0,85</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>7,67</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Regulacja temperatury parzenia</li><li>Wąska obudowa</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Nietypowy rozmiar kolby</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Lelit+Anna+PL41TEM" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Lelit+Anna+PL41TEM" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="delonghi-dedica-ec685" data-product-name="De&#x27;Longhi Dedica EC685" data-scores="6.5,6.5,8.5,8.0,6.5" data-total="7.1250">
+        <div class="product-rank">5</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>De&#x27;Longhi Dedica EC685</h3>
+              <p class="product-tier">Półka budżetowa</p>
+            </div>
+            <div class="product-score"><b data-total-out>7,12</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 7,12 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:22.75%"></span><span class="k2" style="width:13.00%"></span><span class="k3" style="width:17.00%"></span><span class="k4" style="width:12.00%"></span><span class="k5" style="width:6.50%"></span></div>
+          <p class="product-verdict">Wąski i tani ekspres na pierwsze kroki z kawą z kolby.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-delonghi-dedica-ec685">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-delonghi-dedica-ec685" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Jakość espresso</td><td>6,5</td><td data-weight>35%</td><td data-part>2,27</td></tr><tr><td><span class="dot k2"></span>Spienianie mleka</td><td>6,5</td><td data-weight>20%</td><td data-part>1,30</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>8,5</td><td data-weight>20%</td><td data-part>1,70</td></tr><tr><td><span class="dot k4"></span>Czyszczenie</td><td>8,0</td><td data-weight>15%</td><td data-part>1,20</td></tr><tr><td><span class="dot k5"></span>Jakość wykonania</td><td>6,5</td><td data-weight>10%</td><td data-part>0,65</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>7,12</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Niska cena</li><li>Zajmuje mało miejsca</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Ograniczona kontrola nad parzeniem</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=De%27Longhi+Dedica+EC685" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=De%27Longhi+Dedica+EC685" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Wszystkie oceny w jednej tabeli</h2>
+      <p>Oceny cząstkowe w skali 1–10. Wyróżniona komórka to najlepszy wynik w danym kryterium. Ostatnia kolumna zmienia się razem z Twoimi wagami.</p>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare">
+        <thead><tr><th scope="col">Produkt</th><th scope="col">Jakość espresso</th><th scope="col">Spienianie mleka</th><th scope="col">Łatwość obsługi</th><th scope="col">Czyszczenie</th><th scope="col">Jakość wykonania</th><th scope="col">Ocena ważona</th></tr></thead>
+        <tbody><tr><td>Sage Barista Express</td><td>8,5</td><td>8,0</td><td class="best">8,5</td><td>7,0</td><td>8,0</td><td data-total-for="sage-barista-express"><strong>8,12</strong></td></tr><tr><td>Rancilio Silvia</td><td class="best">9,5</td><td class="best">8,5</td><td>5,0</td><td>7,0</td><td class="best">9,5</td><td data-total-for="rancilio-silvia"><strong>8,03</strong></td></tr><tr><td>Gaggia Classic Evo Pro</td><td>9,0</td><td>7,0</td><td>6,0</td><td>7,5</td><td>9,0</td><td data-total-for="gaggia-classic-evo-pro"><strong>7,78</strong></td></tr><tr><td>Lelit Anna PL41TEM</td><td>8,5</td><td>7,5</td><td>6,5</td><td>7,0</td><td>8,5</td><td data-total-for="lelit-anna-pl41tem"><strong>7,67</strong></td></tr><tr><td>De&#x27;Longhi Dedica EC685</td><td>6,5</td><td>6,5</td><td class="best">8,5</td><td class="best">8,0</td><td>6,5</td><td data-total-for="delonghi-dedica-ec685"><strong>7,12</strong></td></tr></tbody>
+      </table>
+    </div>
+    <p style="margin-top:16px"><a href="../metodologia.html">Zobacz, jak liczymy ocenę ważoną</a></p>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap">
+    <div class="band">
+      <div>
+        <h2>Nowe rankingi raz w miesiącu</h2>
+        <p>Jedna wiadomość, gdy dodamy kategorię albo zmieni się lider któregoś zestawienia.</p>
+      </div>
+      <a class="button" href="../newsletter.html">Zapisz się na newsletter</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p><strong>Na Wadze</strong> to projekt studencki przygotowany na zajęcia z analityki internetowej. Oceny są przykładowe, a linki do sklepów prowadzą do wyszukiwarki sklepu i nie są linkami partnerskimi.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../metodologia.html">Jak liczymy ocenę</a>
+      <a href="../newsletter.html">Newsletter</a>
+      <a href="../polityka-prywatnosci.html">Polityka prywatności</a>
+      <button class="link-button" type="button" id="consent-open">Ustawienia cookies</button>
+    </div>
+  </div>
+</footer>
+<section class="consent" id="consent" aria-labelledby="consent-title" hidden>
+  <h2 id="consent-title">Czy możemy mierzyć ruch na stronie?</h2>
+  <p>Za Twoją zgodą używamy Google Analytics, żeby sprawdzać, które rankingi są czytane. Nie zbieramy danych osobowych. Szczegóły w <a href="../polityka-prywatnosci.html">polityce prywatności</a>.</p>
+  <div class="consent-actions">
+    <button class="button small" type="button" id="consent-accept">Zgadzam się na analitykę</button>
+    <button class="button quiet small" type="button" id="consent-reject">Nie zgadzam się</button>
+  </div>
+</section>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

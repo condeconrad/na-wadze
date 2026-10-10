@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranking robotów planetarnych – Na Wadze</title>
+<meta name="description" content="Ranking robotów planetarnych: pięć produktów z oceną ważoną w pięciu kryteriach. Ustaw własne wagi i porównaj wyniki.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1b33'/%3E%3Crect x='5' y='12' width='8' height='8' fill='%231f4e8c'/%3E%3Crect x='13' y='12' width='6' height='8' fill='%23129080'/%3E%3Crect x='19' y='12' width='5' height='8' fill='%23d59a1f'/%3E%3Crect x='24' y='12' width='3' height='8' fill='%23b4476f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/css/style.css">
+<!-- Dane o stronie dla warstwy danych: muszą być przed kontenerem GTM -->
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"page_type": "ranking", "ranking_id": "roboty-kuchenne", "ranking_name": "Roboty kuchenne"});
+</script>
+<!-- Tryb zgody i kontener Google Tag Manager: identyfikator GTM-... ustawiasz w tym jednym pliku -->
+<script src="../assets/js/tracking.js"></script>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<div class="demo-strip"><div class="wrap">Projekt studencki. Oceny i opisy produktów są przykładowe i nie pochodzą z testów.</div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Na Wadze</a>
+    <nav class="nav" aria-label="Główna nawigacja"><a href="../#rankingi" aria-current="page">Rankingi</a><a href="../metodologia.html">Jak liczymy ocenę</a><a href="../newsletter.html">Newsletter</a></nav>
+  </div>
+</header>
+<main id="tresc">
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="../">Strona główna</a> / Rankingi / Roboty kuchenne</p>
+    <h1>Ranking robotów planetarnych</h1>
+    <p class="lead">Pięć robotów planetarnych do domowej kuchni. Jeśli pieczesz głównie chleb, podnieś wagę wyrabiania ciasta, a jeśli robot ma stać w otwartym salonie, zwróć uwagę na głośność.</p>
+  </div>
+</section>
+
+<section class="section tight" data-ranking="roboty-kuchenne" data-ranking-name="Roboty kuchenne">
+  <div class="wrap ranking-grid">
+    <aside class="weights" aria-labelledby="weights-title">
+      <h2 id="weights-title">Twoje wagi</h2>
+      <p>Przesuń suwak, żeby kryterium liczyło się bardziej albo mniej. Udziały zawsze sumują się do 100%.</p>
+      <div class="weight">
+          <label for="w-ciasto"><span class="dot k1"></span>Wyrabianie ciasta<output id="o-ciasto" for="w-ciasto">25%</output></label>
+          <input type="range" id="w-ciasto" min="0" max="100" step="5" value="25" data-criterion="ciasto" data-default="25">
+        </div>
+        <div class="weight">
+          <label for="w-ubijanie"><span class="dot k2"></span>Ubijanie i mieszanie<output id="o-ubijanie" for="w-ubijanie">25%</output></label>
+          <input type="range" id="w-ubijanie" min="0" max="100" step="5" value="25" data-criterion="ubijanie" data-default="25">
+        </div>
+        <div class="weight">
+          <label for="w-obsluga"><span class="dot k3"></span>Łatwość obsługi<output id="o-obsluga" for="w-obsluga">20%</output></label>
+          <input type="range" id="w-obsluga" min="0" max="100" step="5" value="20" data-criterion="obsluga" data-default="20">
+        </div>
+        <div class="weight">
+          <label for="w-wykonanie"><span class="dot k4"></span>Jakość wykonania<output id="o-wykonanie" for="w-wykonanie">20%</output></label>
+          <input type="range" id="w-wykonanie" min="0" max="100" step="5" value="20" data-criterion="wykonanie" data-default="20">
+        </div>
+        <div class="weight">
+          <label for="w-glosnosc"><span class="dot k5"></span>Cicha praca<output id="o-glosnosc" for="w-glosnosc">10%</output></label>
+          <input type="range" id="w-glosnosc" min="0" max="100" step="5" value="10" data-criterion="glosnosc" data-default="10">
+        </div>
+        
+      <div class="weights-actions">
+        <button class="button quiet small" type="button" id="weights-reset" disabled>Przywróć wagi domyślne</button>
+      </div>
+      <p class="weights-state" id="weights-state" aria-live="polite"></p>
+    </aside>
+    <div>
+      <ol class="rank-list" id="rank-list">
+      <li class="product is-first" data-product-id="kitchenaid-artisan-5ksm175" data-product-name="KitchenAid Artisan 5KSM175" data-scores="8.5,9.0,8.5,9.5,6.5" data-total="8.6250">
+        <div class="product-rank">1</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>KitchenAid Artisan 5KSM175</h3>
+              <p class="product-tier">Półka premium</p>
+            </div>
+            <div class="product-score"><b data-total-out>8,62</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 8,62 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:21.25%"></span><span class="k2" style="width:22.50%"></span><span class="k3" style="width:17.00%"></span><span class="k4" style="width:19.00%"></span><span class="k5" style="width:6.50%"></span></div>
+          <p class="product-verdict">Klasyk z metalową obudową, najlepszy do kremów i bitej śmietany.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-kitchenaid-artisan-5ksm175">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-kitchenaid-artisan-5ksm175" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Wyrabianie ciasta</td><td>8,5</td><td data-weight>25%</td><td data-part>2,12</td></tr><tr><td><span class="dot k2"></span>Ubijanie i mieszanie</td><td>9,0</td><td data-weight>25%</td><td data-part>2,25</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>8,5</td><td data-weight>20%</td><td data-part>1,70</td></tr><tr><td><span class="dot k4"></span>Jakość wykonania</td><td>9,5</td><td data-weight>20%</td><td data-part>1,90</td></tr><tr><td><span class="dot k5"></span>Cicha praca</td><td>6,5</td><td data-weight>10%</td><td data-part>0,65</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>8,62</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Solidna, metalowa konstrukcja</li><li>Duży wybór przystawek</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Głośniejszy na wysokich obrotach</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=KitchenAid+Artisan+5KSM175" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=KitchenAid+Artisan+5KSM175" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="kenwood-titanium-chef-baker-xl" data-product-name="Kenwood Titanium Chef Baker XL" data-scores="9.5,8.5,8.0,9.0,7.0" data-total="8.6000">
+        <div class="product-rank">2</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Kenwood Titanium Chef Baker XL</h3>
+              <p class="product-tier">Półka premium</p>
+            </div>
+            <div class="product-score"><b data-total-out>8,60</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 8,60 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:23.75%"></span><span class="k2" style="width:21.25%"></span><span class="k3" style="width:16.00%"></span><span class="k4" style="width:18.00%"></span><span class="k5" style="width:7.00%"></span></div>
+          <p class="product-verdict">Mocny silnik i wbudowana waga, wygodny przy dużych porcjach ciasta.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-kenwood-titanium-chef-baker-xl">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-kenwood-titanium-chef-baker-xl" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Wyrabianie ciasta</td><td>9,5</td><td data-weight>25%</td><td data-part>2,38</td></tr><tr><td><span class="dot k2"></span>Ubijanie i mieszanie</td><td>8,5</td><td data-weight>25%</td><td data-part>2,12</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>8,0</td><td data-weight>20%</td><td data-part>1,60</td></tr><tr><td><span class="dot k4"></span>Jakość wykonania</td><td>9,0</td><td data-weight>20%</td><td data-part>1,80</td></tr><tr><td><span class="dot k5"></span>Cicha praca</td><td>7,0</td><td data-weight>10%</td><td data-part>0,70</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>8,60</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Wbudowana waga w podstawie</li><li>Duża misa</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Zajmuje dużo miejsca na blacie</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Kenwood+Titanium+Chef+Baker+XL" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Kenwood+Titanium+Chef+Baker+XL" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="ankarsrum-assistent-original" data-product-name="Ankarsrum Assistent Original" data-scores="10.0,7.5,6.5,9.5,8.0" data-total="8.3750">
+        <div class="product-rank">3</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Ankarsrum Assistent Original</h3>
+              <p class="product-tier">Półka premium</p>
+            </div>
+            <div class="product-score"><b data-total-out>8,38</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 8,38 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:25.00%"></span><span class="k2" style="width:18.75%"></span><span class="k3" style="width:13.00%"></span><span class="k4" style="width:19.00%"></span><span class="k5" style="width:8.00%"></span></div>
+          <p class="product-verdict">Maszyna do chleba: bezkonkurencyjna w ciężkim cieście, wymaga przyzwyczajenia.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-ankarsrum-assistent-original">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-ankarsrum-assistent-original" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Wyrabianie ciasta</td><td>10,0</td><td data-weight>25%</td><td data-part>2,50</td></tr><tr><td><span class="dot k2"></span>Ubijanie i mieszanie</td><td>7,5</td><td data-weight>25%</td><td data-part>1,88</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>6,5</td><td data-weight>20%</td><td data-part>1,30</td></tr><tr><td><span class="dot k4"></span>Jakość wykonania</td><td>9,5</td><td data-weight>20%</td><td data-part>1,90</td></tr><tr><td><span class="dot k5"></span>Cicha praca</td><td>8,0</td><td data-weight>10%</td><td data-part>0,80</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>8,38</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Radzi sobie z dużą ilością ciężkiego ciasta</li><li>Cicha praca</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Nietypowa obsługa na początku</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Ankarsrum+Assistent+Original" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Ankarsrum+Assistent+Original" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="smeg-smf02" data-product-name="Smeg SMF02" data-scores="7.5,8.0,8.0,8.5,6.5" data-total="7.8250">
+        <div class="product-rank">4</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Smeg SMF02</h3>
+              <p class="product-tier">Półka średnia</p>
+            </div>
+            <div class="product-score"><b data-total-out>7,83</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 7,83 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:18.75%"></span><span class="k2" style="width:20.00%"></span><span class="k3" style="width:16.00%"></span><span class="k4" style="width:17.00%"></span><span class="k5" style="width:6.50%"></span></div>
+          <p class="product-verdict">Robot wybierany oczami, który w codziennym pieczeniu nie zawodzi.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-smeg-smf02">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-smeg-smf02" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Wyrabianie ciasta</td><td>7,5</td><td data-weight>25%</td><td data-part>1,88</td></tr><tr><td><span class="dot k2"></span>Ubijanie i mieszanie</td><td>8,0</td><td data-weight>25%</td><td data-part>2,00</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>8,0</td><td data-weight>20%</td><td data-part>1,60</td></tr><tr><td><span class="dot k4"></span>Jakość wykonania</td><td>8,5</td><td data-weight>20%</td><td data-part>1,70</td></tr><tr><td><span class="dot k5"></span>Cicha praca</td><td>6,5</td><td data-weight>10%</td><td data-part>0,65</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>7,83</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Charakterystyczny wygląd</li><li>Prosta obsługa</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Słabszy przy gęstym cieście drożdżowym</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Smeg+SMF02" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Smeg+SMF02" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      <li class="product" data-product-id="bosch-mum5" data-product-name="Bosch MUM5" data-scores="7.0,8.0,8.0,6.5,6.0" data-total="7.2500">
+        <div class="product-rank">5</div>
+        <div class="product-main">
+          <div class="product-top">
+            <div>
+              <h3>Bosch MUM5</h3>
+              <p class="product-tier">Półka budżetowa</p>
+            </div>
+            <div class="product-score"><b data-total-out>7,25</b><span>na 10</span></div>
+          </div>
+          <div class="bar" role="img" aria-label="Ocena ważona 7,25 na 10, złożona z wkładów pięciu kryteriów"><span class="k1" style="width:17.50%"></span><span class="k2" style="width:20.00%"></span><span class="k3" style="width:16.00%"></span><span class="k4" style="width:13.00%"></span><span class="k5" style="width:6.00%"></span></div>
+          <p class="product-verdict">Najtańszy sposób na robota planetarnego z kompletem przystawek.</p>
+          <button class="button quiet small product-toggle" type="button" aria-expanded="false" aria-controls="d-bosch-mum5">Pokaż ocenę i ceny</button>
+          <div class="product-details" id="d-bosch-mum5" hidden>
+            <table class="breakdown">
+              <thead><tr><th scope="col">Kryterium</th><th scope="col">Ocena</th><th scope="col">Waga</th><th scope="col">Wkład</th></tr></thead>
+              <tbody><tr><td><span class="dot k1"></span>Wyrabianie ciasta</td><td>7,0</td><td data-weight>25%</td><td data-part>1,75</td></tr><tr><td><span class="dot k2"></span>Ubijanie i mieszanie</td><td>8,0</td><td data-weight>25%</td><td data-part>2,00</td></tr><tr><td><span class="dot k3"></span>Łatwość obsługi</td><td>8,0</td><td data-weight>20%</td><td data-part>1,60</td></tr><tr><td><span class="dot k4"></span>Jakość wykonania</td><td>6,5</td><td data-weight>20%</td><td data-part>1,30</td></tr><tr><td><span class="dot k5"></span>Cicha praca</td><td>6,0</td><td data-weight>10%</td><td data-part>0,60</td></tr></tbody>
+              <tfoot><tr><td>Ocena ważona</td><td></td><td></td><td data-sum>7,25</td></tr></tfoot>
+            </table>
+            <div class="proscons">
+              <div><h4>Plusy</h4><ul><li>Niska cena</li><li>Lekki i łatwy do schowania</li></ul></div>
+              <div><h4>Minusy</h4><ul><li>Plastikowa obudowa</li><li>Wyraźnie słyszalny</li></ul></div>
+            </div>
+            <div class="shops">
+              <a class="button small" data-shop="amazon" href="https://www.amazon.pl/s?k=Bosch+MUM5" target="_blank" rel="sponsored noopener">Sprawdź cenę w Amazon</a>
+              <a class="button quiet small" data-shop="allegro" href="https://allegro.pl/listing?string=Bosch+MUM5" target="_blank" rel="sponsored noopener">Sprawdź cenę w Allegro</a>
+            </div>
+            <p class="shops-note">Link otworzy sklep w nowej karcie.</p>
+          </div>
+        </div>
+      </li>
+      
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Wszystkie oceny w jednej tabeli</h2>
+      <p>Oceny cząstkowe w skali 1–10. Wyróżniona komórka to najlepszy wynik w danym kryterium. Ostatnia kolumna zmienia się razem z Twoimi wagami.</p>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare">
+        <thead><tr><th scope="col">Produkt</th><th scope="col">Wyrabianie ciasta</th><th scope="col">Ubijanie i mieszanie</th><th scope="col">Łatwość obsługi</th><th scope="col">Jakość wykonania</th><th scope="col">Cicha praca</th><th scope="col">Ocena ważona</th></tr></thead>
+        <tbody><tr><td>KitchenAid Artisan 5KSM175</td><td>8,5</td><td class="best">9,0</td><td class="best">8,5</td><td class="best">9,5</td><td>6,5</td><td data-total-for="kitchenaid-artisan-5ksm175"><strong>8,62</strong></td></tr><tr><td>Kenwood Titanium Chef Baker XL</td><td>9,5</td><td>8,5</td><td>8,0</td><td>9,0</td><td>7,0</td><td data-total-for="kenwood-titanium-chef-baker-xl"><strong>8,60</strong></td></tr><tr><td>Ankarsrum Assistent Original</td><td class="best">10,0</td><td>7,5</td><td>6,5</td><td class="best">9,5</td><td class="best">8,0</td><td data-total-for="ankarsrum-assistent-original"><strong>8,38</strong></td></tr><tr><td>Smeg SMF02</td><td>7,5</td><td>8,0</td><td>8,0</td><td>8,5</td><td>6,5</td><td data-total-for="smeg-smf02"><strong>7,83</strong></td></tr><tr><td>Bosch MUM5</td><td>7,0</td><td>8,0</td><td>8,0</td><td>6,5</td><td>6,0</td><td data-total-for="bosch-mum5"><strong>7,25</strong></td></tr></tbody>
+      </table>
+    </div>
+    <p style="margin-top:16px"><a href="../metodologia.html">Zobacz, jak liczymy ocenę ważoną</a></p>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap">
+    <div class="band">
+      <div>
+        <h2>Nowe rankingi raz w miesiącu</h2>
+        <p>Jedna wiadomość, gdy dodamy kategorię albo zmieni się lider któregoś zestawienia.</p>
+      </div>
+      <a class="button" href="../newsletter.html">Zapisz się na newsletter</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p><strong>Na Wadze</strong> to projekt studencki przygotowany na zajęcia z analityki internetowej. Oceny są przykładowe, a linki do sklepów prowadzą do wyszukiwarki sklepu i nie są linkami partnerskimi.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../metodologia.html">Jak liczymy ocenę</a>
+      <a href="../newsletter.html">Newsletter</a>
+      <a href="../polityka-prywatnosci.html">Polityka prywatności</a>
+      <button class="link-button" type="button" id="consent-open">Ustawienia cookies</button>
+    </div>
+  </div>
+</footer>
+<section class="consent" id="consent" aria-labelledby="consent-title" hidden>
+  <h2 id="consent-title">Czy możemy mierzyć ruch na stronie?</h2>
+  <p>Za Twoją zgodą używamy Google Analytics, żeby sprawdzać, które rankingi są czytane. Nie zbieramy danych osobowych. Szczegóły w <a href="../polityka-prywatnosci.html">polityce prywatności</a>.</p>
+  <div class="consent-actions">
+    <button class="button small" type="button" id="consent-accept">Zgadzam się na analitykę</button>
+    <button class="button quiet small" type="button" id="consent-reject">Nie zgadzam się</button>
+  </div>
+</section>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

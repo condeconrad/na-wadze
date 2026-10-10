@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polityka prywatności – Na Wadze</title>
+<meta name="description" content="Jakie dane mierzy serwis Na Wadze, czego nie zbiera i jak zmienić zgodę na analitykę.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1b33'/%3E%3Crect x='5' y='12' width='8' height='8' fill='%231f4e8c'/%3E%3Crect x='13' y='12' width='6' height='8' fill='%23129080'/%3E%3Crect x='19' y='12' width='5' height='8' fill='%23d59a1f'/%3E%3Crect x='24' y='12' width='3' height='8' fill='%23b4476f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Dane o stronie dla warstwy danych: muszą być przed kontenerem GTM -->
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"page_type": "privacy"});
+</script>
+<!-- Tryb zgody i kontener Google Tag Manager: identyfikator GTM-... ustawiasz w tym jednym pliku -->
+<script src="assets/js/tracking.js"></script>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<div class="demo-strip"><div class="wrap">Projekt studencki. Oceny i opisy produktów są przykładowe i nie pochodzą z testów.</div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Na Wadze</a>
+    <nav class="nav" aria-label="Główna nawigacja"><a href="./#rankingi">Rankingi</a><a href="metodologia.html">Jak liczymy ocenę</a><a href="newsletter.html">Newsletter</a></nav>
+  </div>
+</header>
+<main id="tresc">
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="./">Strona główna</a> / Polityka prywatności</p>
+    <h1>Polityka prywatności</h1>
+    <p class="lead">Krótko: mierzymy ruch tylko za Twoją zgodą i nie zbieramy danych, które pozwalają Cię zidentyfikować.</p>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap prose">
+    <h2 style="margin-top:0">Kto prowadzi serwis</h2>
+    <p>Na Wadze to niekomercyjny projekt studencki przygotowany na zajęcia z analityki internetowej. Serwis niczego nie sprzedaje.</p>
+
+    <h2>Jakie dane mierzymy</h2>
+    <p>Jeśli wyrazisz zgodę w banerze, strona ładuje Google Analytics 4 przez Google Tag Manager. Zbierane są wtedy informacje o tym, jak korzystasz ze strony:</p>
+    <ul>
+      <li>które podstrony i rankingi zostały wyświetlone,</li>
+      <li>czy zmieniono wagi kryteriów i rozwinięto ocenę produktu,</li>
+      <li>czy kliknięto link do sklepu i do którego,</li>
+      <li>czy wysłano formularz newslettera (sam fakt, bez treści formularza),</li>
+      <li>dane techniczne: rodzaj urządzenia, przeglądarka, przybliżona lokalizacja, źródło wejścia.</li>
+    </ul>
+
+    <h2>Czego nie zbieramy</h2>
+    <p>Do Google Analytics nie trafiają imię i nazwisko, adres e-mail, numer telefonu ani nic, co wpisujesz w formularzu. Adres e-mail z formularza newslettera nie jest w tej wersji nigdzie wysyłany ani zapisywany.</p>
+
+    <h2>Pliki cookie i zgoda</h2>
+    <p>Bez Twojej zgody Google Analytics nie zapisuje plików cookie. Decyzję możesz zmienić w każdej chwili, klikając „Ustawienia cookies” w stopce.</p>
+
+    <h2>Linki do sklepów</h2>
+    <p>Po kliknięciu w link do sklepu przechodzisz na stronę zewnętrzną, która ma własną politykę prywatności.</p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p><strong>Na Wadze</strong> to projekt studencki przygotowany na zajęcia z analityki internetowej. Oceny są przykładowe, a linki do sklepów prowadzą do wyszukiwarki sklepu i nie są linkami partnerskimi.</p>
+    </div>
+    <div class="footer-links">
+      <a href="metodologia.html">Jak liczymy ocenę</a>
+      <a href="newsletter.html">Newsletter</a>
+      <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+      <button class="link-button" type="button" id="consent-open">Ustawienia cookies</button>
+    </div>
+  </div>
+</footer>
+<section class="consent" id="consent" aria-labelledby="consent-title" hidden>
+  <h2 id="consent-title">Czy możemy mierzyć ruch na stronie?</h2>
+  <p>Za Twoją zgodą używamy Google Analytics, żeby sprawdzać, które rankingi są czytane. Nie zbieramy danych osobowych. Szczegóły w <a href="polityka-prywatnosci.html">polityce prywatności</a>.</p>
+  <div class="consent-actions">
+    <button class="button small" type="button" id="consent-accept">Zgadzam się na analitykę</button>
+    <button class="button quiet small" type="button" id="consent-reject">Nie zgadzam się</button>
+  </div>
+</section>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

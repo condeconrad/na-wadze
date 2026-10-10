@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsletter – Na Wadze</title>
+<meta name="description" content="Zapisz się na newsletter serwisu Na Wadze: nowe rankingi i zmiany liderów raz w miesiącu.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1b33'/%3E%3Crect x='5' y='12' width='8' height='8' fill='%231f4e8c'/%3E%3Crect x='13' y='12' width='6' height='8' fill='%23129080'/%3E%3Crect x='19' y='12' width='5' height='8' fill='%23d59a1f'/%3E%3Crect x='24' y='12' width='3' height='8' fill='%23b4476f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Dane o stronie dla warstwy danych: muszą być przed kontenerem GTM -->
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"page_type": "newsletter"});
+</script>
+<!-- Tryb zgody i kontener Google Tag Manager: identyfikator GTM-... ustawiasz w tym jednym pliku -->
+<script src="assets/js/tracking.js"></script>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<div class="demo-strip"><div class="wrap">Projekt studencki. Oceny i opisy produktów są przykładowe i nie pochodzą z testów.</div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Na Wadze</a>
+    <nav class="nav" aria-label="Główna nawigacja"><a href="./#rankingi">Rankingi</a><a href="metodologia.html">Jak liczymy ocenę</a><a href="newsletter.html" aria-current="page">Newsletter</a></nav>
+  </div>
+</header>
+<main id="tresc">
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="./">Strona główna</a> / Newsletter</p>
+    <h1>Newsletter z nowymi rankingami</h1>
+    <p class="lead">Jedna wiadomość w miesiącu: nowe kategorie i zmiany na pierwszych miejscach.</p>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap">
+    <form class="form-card" id="newsletter-form" novalidate data-thanks="dziekujemy.html">
+      <h2>Zapisz się</h2>
+      <div class="field">
+        <label for="nl-email">Adres e-mail</label>
+        <input type="email" id="nl-email" name="email" autocomplete="email" inputmode="email" placeholder="np. anna@example.com" aria-describedby="nl-email-error" required>
+        <p class="field-error" id="nl-email-error" hidden>Wpisz poprawny adres e-mail, na przykład anna@example.com.</p>
+      </div>
+      <label class="check" for="nl-agree">
+        <input type="checkbox" id="nl-agree" name="zgoda" aria-describedby="nl-agree-error" required>
+        <span>Chcę dostawać newsletter serwisu Na Wadze. Wiem, że mogę wypisać się w każdej chwili.</span>
+      </label>
+      <p class="field-error" id="nl-agree-error" hidden>Zaznacz zgodę, żeby zapisać się na newsletter.</p>
+      <button class="button" type="submit">Zapisz się na newsletter</button>
+      <p class="form-note">Wersja demonstracyjna: adres nie jest nigdzie wysyłany ani zapisywany. Formularz służy do ćwiczenia pomiaru konwersji.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p><strong>Na Wadze</strong> to projekt studencki przygotowany na zajęcia z analityki internetowej. Oceny są przykładowe, a linki do sklepów prowadzą do wyszukiwarki sklepu i nie są linkami partnerskimi.</p>
+    </div>
+    <div class="footer-links">
+      <a href="metodologia.html">Jak liczymy ocenę</a>
+      <a href="newsletter.html">Newsletter</a>
+      <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+      <button class="link-button" type="button" id="consent-open">Ustawienia cookies</button>
+    </div>
+  </div>
+</footer>
+<section class="consent" id="consent" aria-labelledby="consent-title" hidden>
+  <h2 id="consent-title">Czy możemy mierzyć ruch na stronie?</h2>
+  <p>Za Twoją zgodą używamy Google Analytics, żeby sprawdzać, które rankingi są czytane. Nie zbieramy danych osobowych. Szczegóły w <a href="polityka-prywatnosci.html">polityce prywatności</a>.</p>
+  <div class="consent-actions">
+    <button class="button small" type="button" id="consent-accept">Zgadzam się na analitykę</button>
+    <button class="button quiet small" type="button" id="consent-reject">Nie zgadzam się</button>
+  </div>
+</section>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
