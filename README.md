@@ -13,7 +13,7 @@ Nazwa repozytorium musi brzmieć `na-wadze`, bo korzysta z niej strona błędu 4
 
 ## Instalacja Google Tag Manager (Temat 3)
 
-Otwórz `assets/js/tracking.js` i w pierwszej linii kodu zamień `GTM-XXXXXXX` na identyfikator swojego kontenera.
+Otwórz `assets/js/tracking.js` i ustawiony jest identyfikator kontenera `GTM-NF2CMMHD` (zmienna `NW_GTM_ID`).
 Plik jest ładowany na każdej podstronie, więc kontener pojawi się wszędzie po jednej zmianie.
 Identyfikator GA4 (`G-...`) podajesz w tagu Google wewnątrz GTM, nie w kodzie strony.
 

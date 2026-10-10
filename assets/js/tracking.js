@@ -12,7 +12,7 @@
   Uwaga: tutaj wpisujesz identyfikator kontenera GTM-..., a NIE identyfikator
   pomiaru GA4 (G-...). Identyfikator G-... podajesz w tagu Google wewnątrz GTM.
 */
-var NW_GTM_ID = 'GTM-XXXXXXX';
+var NW_GTM_ID = 'GTM-NF2CMMHD';
 
 /* 1. Warstwa danych i funkcja gtag (potrzebna do trybu zgody). */
 window.dataLayer = window.dataLayer || [];
